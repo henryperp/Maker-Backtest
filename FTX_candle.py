@@ -3,7 +3,6 @@ import requests
 from datetime import datetime
 import csv
 import configparser
-import os
 
 
 config = configparser.ConfigParser()
