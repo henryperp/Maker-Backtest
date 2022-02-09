@@ -44,7 +44,7 @@ while x < 999999 :
                 writer = csv.writer(csvfile)
                 writer.writerow([resp_F['result'][i]['startTime'][0:10:]+" "+resp_F['result'][i]['startTime'][11:19:], str(resp_F['result'][i]['open']), str(resp_F['result'][i]['high']), str(resp_F['result'][i]['low']), str(resp_F['result'][i]['close'])])
     except :
-        print('Unsupported candle resolution, time : 1, 60, 300, 3600')
+        print('Unsupported candle resolution, time : 15, 60, 300, 900, 3600, 14400, 86400')
         x = 1000000
 
     x = x +1
